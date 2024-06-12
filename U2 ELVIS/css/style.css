@@ -1,0 +1,405 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none   ;
+}
+
+
+
+
+ header{
+    padding: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+#logo span{
+    color: #32CD32;
+}
+
+
+#hiconos{
+    height: 100%;
+    padding: 40.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.iconos1{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    transition: 2s ease, transform 0.3s ease; 
+}
+ 
+
+
+.iconos1:hover{
+    color: white;
+    transform: scale(2); 
+}
+
+
+.iconos1 a  {
+    color: inherit;
+}
+
+
+#icono1{
+    top: auto;
+    color: white  ;
+    background: red    	;
+    text-decoration: none;
+    
+}
+
+#icono1 i {
+    font-size: 30px;
+}
+
+
+
+
+#icono2{
+    margin-left: 15rem;
+    top: auto;
+    color: white  ;
+    background: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045);
+    
+}
+
+#icono2 i {
+    font-size: 32px;
+}
+
+#icono3{
+    margin-right: 15rem;
+
+    top: auto;
+    color: white  ;
+    background: linear-gradient(45deg, #0165E1, #17A9FD);
+}
+
+#icono3 i {
+    font-size: 32px;
+}
+
+.iconos1 i a {
+    text-decoration: none;
+}
+ 
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.botones1 {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 5px;
+    min-width: 200px; /* Ajusta el ancho mínimo según sea necesario */
+    flex: 1 1 auto;
+}
+
+
+.botones1:hover {
+    color: white;
+    transform: scale(1.1); /* Aumentar a escalas más grandes */
+}
+
+
+
+#inicio:hover{
+    background: green;
+    
+}
+
+
+
+
+
+#carrusel{
+    margin: 20px auto; 
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+}
+
+#carrusel ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#carrusel ul li{
+    float: left;
+    width: 326px;
+    
+    height: 300px;
+    margin: 20px;
+    text-align: center;
+    background: lightgreen;
+    border-radius: 20px;
+    transition: transform 0.5s ease; /* Agrega una transición suave al efecto */
+    
+}
+
+#carrusel ul li:hover {
+    transform: scale(1.1); 
+    border: 1px solid black;
+
+
+}
+
+
+
+#carrusel ul li h2{
+    font-size: 30px;
+    margin: 20px ;
+    font-family: "Kaushan Script", cursive;
+
+}
+#carrusel ul li img {
+    margin: 10px auto; /* Reducir el margen superior e inferior */
+    width: 180px; /* Aumentar el ancho de la imagen */
+    height: 120px; /* Aumentar la altura de la imagen */
+    border-radius: 20%;
+    border: 3px solid white; /* Agregar un borde blanco */
+    transition: transform 0.5s ease;
+}
+
+#carrusel ul li img:hover {
+    transform: scale(1.1);
+}
+
+#carrusel ul li p {
+    margin: 10px;
+    font: 10px;
+    font-family: "Pixelify Sans", sans-serif;
+    
+}
+
+
+#carrusel ul li#Maquetado:hover {
+    background-color: orange;
+}
+
+
+#carrusel ul li#Estilos:hover {
+    background-color: lightblue   ;
+}
+
+#carrusel ul li#Scripts:hover {
+    background-color: yellow;
+}
+
+
+
+
+section{
+    position:relative;
+    margin: 20px auto;
+    width: 1000px;
+    height: 574px;
+}
+
+
+aside#izq{
+    position: absolute;
+    width: 200px;
+    height: 574px;
+    left: 0;
+    top: 0;
+    
+}
+
+aside#izq ul{
+
+    width: 198px;
+    height: 574px;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    background: lightgreen;
+
+}
+
+aside#izq ul h2{
+    text-align: center;
+    margin: 20px;
+    font-family: "Kaushan Script", cursive;
+
+}
+
+
+
+aside#izq ul li {
+    font-family: "Roboto", sans-serif;
+
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #ddd; /* Borde más sutil */
+    border-radius: 10px;
+    padding: 10px;
+    background: #f9f9f9; /* Color de fondo más claro */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombreado más suave */
+    transition: transform 1s ease; /* Transición al efecto de escala */
+}
+
+aside#izq ul li:hover {
+    background: linear-gradient(to right, #00ff00, #008000);
+    transform: scale(1.1); /* Efecto de escala al pasar el ratón */
+    color: white;
+}
+
+
+section article{
+    position: absolute;
+    width: 600px;
+    height: 574px;
+    top: 0;
+    right: 200px;
+    text-align: justify;
+
+}
+
+section article h2{
+    font-family: "Kaushan Script", cursive;
+    margin: 30px;
+    font-size: 30px;
+}
+
+
+
+section article img{
+    width: 250px;
+    height: 250px;
+}
+
+section article p img{
+    float: left;
+    margin-right: 20px;
+}
+
+section article p{
+    margin: 20px;
+}
+
+
+
+
+
+aside#der {
+    position: absolute;
+    width: 200px;
+    height: 574px;
+    right: 0;
+    top: 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los elementos del formulario dentro del aside */
+aside#der form * {
+    margin-bottom: 20px;
+}
+
+/* Estilo para el formulario */
+aside#der form {
+    width: 198px; /* Reducido en 2px para ajustar el borde */
+    height: 574px;
+    border: 0.5px solid black; /* Cambiado a 0.5px para que sea consistente */
+    border-radius: 20px;
+    background: lightgreen;
+
+}
+
+/* Estilo para el título del formulario */
+aside#der form h2 {
+    font-family: "Kaushan Script", cursive;
+    text-align: center;
+    margin: 20px 0; /* Ajustado para igualar los márgenes superior e inferior */
+}
+
+/* Estilo para los elementos de entrada */
+input {
+    width: calc(100% - 40px); /* Se reduce el ancho por el padding */
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: black;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}  
+
+
+footer {
+    width: 100%;
+    padding: 20px 0; /* Espaciado interno */
+    max-width: 1000px; /* Ancho máximo del footer */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+.comment-section {
+    max-width: 1000px; /* Ancho máximo */
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 10px;
+    border: 1px solid black    ; /* Borde delgado */
+    border-radius: 5px;
+    background: lightgreen/* Fondo blanco */
+}
+
+.comment-section h3{
+    font-family: "Roboto", sans-serif;
+
+    margin: 10px;
+    }
+
+/* Estilo para los inputs de usuario y comentario */
+.comment-section input[type="text"],
+.comment-section textarea {
+    width: calc(100% - 20px); /* Ancho del 100% menos el padding */
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 5px;
+    
+}
+
+/* Estilo para el botón de enviar */
+.comment-section input[type="submit"] {
+    width: 100px;
+    padding: 8px;
+    background: #32CD32; /* Fondo verde */
+    color: white; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Cursor de flecha */
+    
+}
